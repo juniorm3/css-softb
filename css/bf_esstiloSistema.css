@@ -136,3 +136,36 @@ input[type=submit]:hover
     background-color: #69c5ee;
     border-color: #1e9bde;
 }
+
+
+table
+{
+ margin-left: auto;
+ margin-right: auto;
+ background-color: #ffffff;
+ font-size: 14px;
+ border-spacing: 1px;
+}
+
+tr:nth-child(even)
+{
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #ffffff;
+}
+
+th
+{
+    background-color: #1e9bde;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+td
+{
+    padding: 3px;
+}
